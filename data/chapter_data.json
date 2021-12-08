@@ -1,0 +1,161 @@
+{
+  "1": {
+    "name": "Chapter 1: The Return of Palutena",
+    "weapons": "First Blade\nFortune Bow\nViolet Palm\nTwinbellows Cannon",
+    "img": "https://static.wikia.nocookie.net/kidicarus/images/f/f6/Twinbellows_Uprising.jpg/revision/latest/scale-to-width-down/400?cb=20100919202842",
+    "leaderboard": []
+  },
+  "2": {
+    "name": "Chapter 2: Magnus and the Dark Lord",
+    "weapons": "Insight Staff\nOre Club\nCrusher Arm\nSagittarius Bow\nGaol Blade",
+    "img": "https://static.wikia.nocookie.net/kidicarus/images/d/d7/Gaol_image.png/revision/latest/scale-to-width-down/339?cb=20110920062447",
+    "leaderboard": []
+  },
+  "3": {
+    "name": "Chapter 3: Heads of the Hewdraw",
+    "weapons": "Tiger Claws\nEZ Cannon\nStandard Orbitars\nHewdraw Club",
+    "img": "https://static.wikia.nocookie.net/kidicarus/images/a/a8/220152-header.jpg/revision/latest/scale-to-width-down/620?cb=20120426025423",
+    "leaderboard": []
+  },
+  "4": {
+    "name": "Chapter 4: The Reaper's Line of Sight",
+    "weapons": "Flintlock StaffDarkness Bow\nBall Cannon\nTaurus Arm\nGreat Reaper Palm",
+    "img": "https://static.wikia.nocookie.net/kidicarus/images/1/17/Greatreaperscreencap3.png/revision/latest/scale-to-width-down/700?cb=20160518010319",
+    "leaderboard": []
+  },
+  "5": {
+    "name": "Chapter 5: Pandora's labyrinth of Deceit",
+    "weapons": "Viper Blade\nAtlas Club\nBomber Arm\nPandora Claws",
+    "img": "https://static.wikia.nocookie.net/kidicarus/images/c/c7/Darkpitscreencap2.png/revision/latest/scale-to-width-down/700?cb=20170322003943",
+    "leaderboard": []
+  },
+  "6": {
+    "name": "Chapter 6: Dark Pit",
+    "weapons": "Silver Bow\nOgre Club\nGemini Orbitars\nDark Pit Staff",
+    "img": "https://static.wikia.nocookie.net/kidicarus/images/2/29/Darkpitandpit2.png/revision/latest/scale-to-width-down/803?cb=20160502053036",
+    "leaderboard": []
+  },
+  "7": {
+    "name": "Chapter 7: The Seafloor Palace",
+    "weapons": "Meteor Bow\nEyetrack Orbitars\nVolcano Arm\nPoseidon Cannon\nThanatos Staff",
+    "img": "https://static.wikia.nocookie.net/kidicarus/images/c/cc/Thanatosscreencap1.png/revision/latest/scale-to-width-down/700?cb=20160531022156",
+    "leaderboard": []
+  },
+  "8": {
+    "name": "Chapter 8: The Space Pirate Ship",
+    "weapons": "Royal Blade\nKnuckle Staff\nNeedle Palm\nCancer Claws\nKraken Arm",
+    "img": "https://static.wikia.nocookie.net/kidicarus/images/2/21/Krakenscreencap2.png/revision/latest/scale-to-width-down/700?cb=20160521013107",
+    "leaderboard": []
+  },
+  "9": {
+    "name": "Chapter 9: Medusa's Final Battle",
+    "weapons": "Bear Claws\nCursed Palm\nHalo Club\nPalutena Blade",
+    "img": "https://static.wikia.nocookie.net/kidicarus/images/3/36/Hadescreencap1.png/revision/latest/scale-to-width-down/700?cb=20160508015754",
+    "leaderboard": []
+  },
+  "10": {
+    "name": "Chapter 10: The Wish Seed",
+    "weapons": "Wolf Claw\nBurning Palm\nLeo Cannon\nPhoenix Arm",
+    "img": "https://static.wikia.nocookie.net/kidicarus/images/c/cc/Phoenixscreencap.png/revision/latest/scale-to-width-down/700?cb=20160520025556",
+    "leaderboard": []
+  },
+  "11": {
+    "name": "Chapter 11: Viridi, Goddess of Nature",
+    "weapons": "Crusader Blade\nRose Staff\nDivine Bow\nPad Paw Orbitars\nCragalanche Cannon",
+    "img": "https://static.wikia.nocookie.net/kidicarus/images/1/18/Cragalanchescreencap.png/revision/latest/scale-to-width-down/700?cb=20160508013615",
+    "leaderboard": []
+  },
+  "12": {
+    "name": "Chapter 12: Wrath of the Reset Bomb",
+    "weapons": "Brawler Claws\nSkyscraper Club\nFireworks Cannon\nElectroshock Arm\nVirgo Palm",
+    "img": "https://static.wikia.nocookie.net/kidicarus/images/1/1d/Forcesofnatureguardscreencap2.png/revision/latest/scale-to-width-down/700?cb=20161108023827",
+    "leaderboard": []
+  },
+  "13": {
+    "name": "Chapter 13: The Lunar Sanctum",
+    "weapons": "Samurai Sword\nLancer Staff\nMidnight Palm\nAurum Orbitars",
+    "img": "https://static.wikia.nocookie.net/kidicarus/images/7/78/Arlonscreencap.png/revision/latest/scale-to-width-down/700?cb=20160506031210",
+    "leaderboard": []
+  },
+  "14": {
+    "name": "Chapter 14: Lightning Battle",
+    "weapons": "Earthmaul Club\nDynamo Cannon\nShock Orbitars\nBowl Arm\nPhosphora Bow",
+    "img": "https://static.wikia.nocookie.net/kidicarus/images/3/3c/Phosphorascreencap1.png/revision/latest/scale-to-width-down/700?cb=20170109004110",
+    "leaderboard": []
+  },
+  "15": {
+    "name": "Chapter 15: Mysterious Invaders",
+    "weapons": "Aurum Blade\nArtillery Claws\nCutter Palm\nAurum Club\nJetstream Orbitars",
+    "img": "https://static.wikia.nocookie.net/kidicarus/images/e/e3/Aurumcorescreencap1.png/revision/latest/scale-to-width-down/700?cb=20170406003950",
+    "leaderboard": []
+  },
+  "16": {
+    "name": "Chapter 16: The Aurum Hive",
+    "weapons": "Optical Saber\nAurum Palm\nRail Cannon\nAurum Orbitars\nScorpio Staff",
+    "img": "https://static.wikia.nocookie.net/kidicarus/images/8/88/Aurumhivescreencap4.png/revision/latest/scale-to-width-down/700?cb=20161105000756",
+    "leaderboard": []
+  },
+  "17": {
+    "name": "Chapter 17: The Aurum Brain",
+    "weapons": "Laser Staff\nRaptor Claws\nAurum Bow\nCompact Arm",
+    "img": "https://static.wikia.nocookie.net/kidicarus/images/1/1d/Aurumpyrrhonscreencap.png/revision/latest/scale-to-width-down/700?cb=20160523025336",
+    "leaderboard": []
+  },
+  "18": {
+    "name": "Chapter 18: The Ring of Chaos",
+    "weapons": "First Blade\nGuardian Orbitars\nAngel Bow\nBullet Blade\nPalutena Bow\nMagnus Club",
+    "img": "https://static.wikia.nocookie.net/kidicarus/images/a/ae/Pitsbodyscreencap.png/revision/latest/scale-to-width-down/700?cb=20160616022758",
+    "leaderboard": [
+      "133360195240722432 463400",
+      "714615961830948964 458700",
+      "131954837376991233 457400",
+      "567329060313890846 453500",
+      "308414794304847873 391520",
+      "107329204579790848 327620",
+      "703595646069768283 202990",
+      "264111888558718988 9"
+    ]
+  },
+  "19": {
+    "name": "Chapter 19: The Lightning Chariot",
+    "weapons": "Babel Club\nCenturian Orbitars\nNinja Palm\nAncient Staff\nAurum Bow",
+    "img": "https://static.wikia.nocookie.net/kidicarus/images/d/dc/Lightningchariotscreencap2.png/revision/latest/scale-to-width-down/700?cb=20161101015624",
+    "leaderboard": []
+  },
+  "20": {
+    "name": "Chapter 20: Palutena's Temple",
+    "weapons": "Doom Cannon\nAngel Bow\nDrill Arm\nBurst Blade\nCapricorn Club",
+    "img": "https://static.wikia.nocookie.net/kidicarus/images/a/a9/Chaoskinscreencap1.png/revision/latest/scale-to-width-down/700?cb=20160504033023",
+    "leaderboard": []
+  },
+  "21": {
+    "name": "Chapter 21: The Chaos Vortex",
+    "weapons": "Viridi Palm\nCrystal Bow\nHedgehog Claws\nUpperdash Arm\nElectroshock Arm\nLancer Staff\nFireworks Cannon\nAncient Staff\nViper Blade",
+    "img": "https://static.wikia.nocookie.net/kidicarus/images/d/d1/Chaoskinscreencap2.png/revision/latest/scale-to-width-down/700?cb=20160504033056",
+    "leaderboard": []
+  },
+  "22": {
+    "name": "Chapter 22: Scorched Feathers",
+    "weapons": "Kraken Arm\nViridi Palm\nPandora Claws",
+    "img": "https://static.wikia.nocookie.net/kidicarus/images/8/83/Amazonpandorascreencap2.png/revision/latest/scale-to-width-down/700?cb=20160510005427",
+    "leaderboard": []
+  },
+  "23": {
+    "name": "Chapter 23: The Lord of the Underworld",
+    "weapons": "Phoenix Arm\nBlack Club\nBeam Claws\nAquarius Blade",
+    "img": "https://static.wikia.nocookie.net/kidicarus/images/6/66/Hadesheartscreencap.png/revision/latest/scale-to-width-down/700?cb=20160617025320",
+    "leaderboard": []
+  },
+  "24": {
+    "name": "Chapter 24: The Three Trials",
+    "weapons": "Predator Cannon",
+    "img": "https://static.wikia.nocookie.net/kidicarus/images/c/ca/Greatsacredtreasurescreencap1.png/revision/latest/scale-to-width-down/700?cb=20161103011619",
+    "leaderboard": []
+  },
+  "25": {
+    "name": "Chapter 25: The War's End",
+    "weapons": "None obtainable in final chapter.",
+    "img": "https://static.wikia.nocookie.net/kidicarus/images/8/8e/Greatsacredtreasurescreencap2.png/revision/latest/scale-to-width-down/700?cb=20161103011620",
+    "leaderboard": []
+  }
+}
