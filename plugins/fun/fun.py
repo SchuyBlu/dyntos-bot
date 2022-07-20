@@ -33,7 +33,7 @@ async def slap(ctx : context.Context):
     # himself.
     
     member = ctx.get_guild().get_member(ctx.options.slapped)
-    user = ctx.member
+    user = ctx.get_guild().get_member(ctx.member)
 
     # Create slap phrases and pick arandom one.
     slap_phrase = [
@@ -41,8 +41,6 @@ async def slap(ctx : context.Context):
         f"{member.display_name} got slapped hard by {user.display_name}!",
         f"{member.display_name} was disrespected by {user.display_name}!",
         f"{member.display_name} was hurt on an emotional level by {user.display_name}!",
-        f"{user.display_name} performed an IRL melee combo on {member.display_name}!",
-        f"{user.display_name} slapped {member.display_name} and broke their hand!",
         f"{user.display_name} gave {member.display_name} a little love tap!",
         f"{member.display_name} was patched out of the game by {user.display_name}!",
         f"{member.display_name} asked {user.display_name} to slap them real hard <:paludegenerate:723610957066010677>"
@@ -51,19 +49,23 @@ async def slap(ctx : context.Context):
     choice = random.choice(slap_phrase)
 
     # Retrieve and save the member avatar.
-    member_photo = str(member.avatar_url)
-    req = urllib.request.Request(member_photo, headers = {"User-Agent": "Mozilla/5.0"})
+    member_photo = member.guild_avatar_url
+    if member_photo is None:
+        member_photo = member.display_avatar_url
+    req = urllib.request.Request(str(member_photo), headers = {"User-Agent": "Mozilla/5.0"})
     with urllib.request.urlopen(req) as r:
         img = r.read()
 
     # Retrieve and save the user avatar.
-    user_photo = str(ctx.user.avatar_url)
-    req = urllib.request.Request(user_photo, headers = {"User-Agent": "Mozilla/5.0"})
+    user_photo = user.guild_avatar_url
+    if user_photo is None:
+        user_photo = user.display_avatar_url
+    req = urllib.request.Request(str(user_photo), headers = {"User-Agent": "Mozilla/5.0"})
     with urllib.request.urlopen(req) as r:
         img2 = r.read()
 
     # Convert to bytes.
-    file_img = BytesIO(img)
+    file_img = BytesIO(img) 
     file_img2 = BytesIO(img2)
 
     # Using pillow, create a slap image.
@@ -71,9 +73,9 @@ async def slap(ctx : context.Context):
 
     # Retrieve both user and member images and resize.
     temp1 = Image.open(file_img)
-    temp1 = temp1.resize((256, 256), Image.ANTIALIAS)
+    temp1 = temp1.resize((256, 256), Image.Resampling.LANCZOS)
     temp2 = Image.open(file_img2)
-    temp2 = temp2.resize((256, 256), Image.ANTIALIAS)
+    temp2 = temp2.resize((256, 256), Image.Resampling.LANCZOS)
 
     # Paste both user images.
     batman.paste(temp1, (320, 235))
@@ -83,11 +85,14 @@ async def slap(ctx : context.Context):
     output.seek(0)
 
     # Send the message and edit it.
-    message = await ctx.respond("...")
-    await message.edit(
+    await ctx.respond(
         content = choice,
         attachment = hikari.Bytes(output, "batman_slap.jpg")
-        )
+    )
+    #await message.edit(
+    #    content = choice,
+    #    attachment = hikari.Bytes(output, "batman_slap.jpg")
+    #    )
     
     # Close all files opened.
     batman.close()
@@ -121,26 +126,26 @@ async def uwuify(ctx : context.Context):
     # Repalce words, phrases, and letters to uwuify!
     word_list = text.split()
     for number, word in enumerate(word_list):
-        if word=="my":
-            word_list[number]="mwy"
-        elif word=="to":
-            word_list[number]="tuwu"
-        elif word=="had":
-            word_list[number]="hawd"
-        elif word=="you":
-            word_list[number]="yuw"
-        elif word=="go":
-            word_list[number]="gow"
-        elif word=="and":
-            word_list[number]="awnd"
-        elif word=="have":
-            word_list[number]="haw"
+        if word == "my":
+            word_list[number] = "mwy"
+        elif word == "to":
+            word_list[number] = "tuwu"
+        elif word == "had":
+            word_list[number] = "hawd"
+        elif word == "you":
+            word_list[number] = "yuw"
+        elif word == "go":
+            word_list[number] = "gow"
+        elif word == "and":
+            word_list[number] = "awnd"
+        elif word == "have":
+            word_list[number] = "haw"
         
         else:
             word = word.replace("ll", "w").replace("r", "w").replace("l", "w").replace("th", "d").replace("fu", "fwu").replace("y", "wy")
             word_list[number]=word
             
-        if random.randrange(0,11)==1:
+        if random.randrange(0,11) == 1:
             word_list[number] = word[0]+"-"+word
             
         if "." in word:
